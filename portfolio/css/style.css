@@ -52,6 +52,7 @@ a, a:link, a:visited {
   margin-top: 16px;
   max-width: 100%;
   object-fit: cover;
+  width: 100%;
 }
 
 .portfolio__title {
@@ -66,9 +67,9 @@ a, a:link, a:visited {
 }
 
 .portfolio__wrapper {
-  align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .portfolio__item {
@@ -77,6 +78,8 @@ a, a:link, a:visited {
   flex-direction: column;
   font-family: sans;
   margin-bottom: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 .portifolio__title {
@@ -90,9 +93,3 @@ a, a:link, a:visited {
   font-size: 12px;
 }
 
-@media screen and (min-width: 768px) {
-  .portfolio__wrapper {
-      flex-direction: row;
-      justify-content: space-evenly;
-  }
-}
