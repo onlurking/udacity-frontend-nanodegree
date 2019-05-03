@@ -43,6 +43,10 @@ a, a:link, a:visited {
   width: 48px;
 }
 
+.portfolio {
+  margin-bottom: 32px;
+}
+
 .portfolio__image {
   height:400px;
   margin-top: 16px;
